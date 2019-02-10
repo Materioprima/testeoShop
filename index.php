@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>InserteNombreAqui</title>
-	<link rel="stylesheet" href="css/style.css">
+	<?php require 'includes/metas.php' ?>
 </head>
 <body>
-	<p>Hola</p>
+	<?php require 'includes/menu.php'; ?>
+	<?php require 'includes/metasfooter.php' ?>
 </body>
 </html>
