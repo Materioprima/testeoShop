@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;
   width: 100%;
  padding: 0;
   box-sizing: border-box;
-  z-index: 3;
+  z-index: 10;
   height: 52px;
   will-change: transform;
   transition: background 0.3s, -webkit-transform 0.5s cubic-bezier(0.694, 0.048, 0.335, 1);
@@ -235,7 +235,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .show-menu{
-   z-index:5;
+   z-index:12;
    right: 0 !important;
    transition: .4s;
 -webkit-transition: .4s;
@@ -259,7 +259,7 @@ font-family: 'Roboto', sans-serif;
 	top: 0;
 	width: 100%;
 	overflow: hidden;
-   z-index: 2;
+   z-index: 9;
 }
 
 @-webkit-keyframes fadeIn {
@@ -575,7 +575,7 @@ transform:scale(1.5)
    top: 0px;
    left: -100%;
    line-height: 50px;
-   z-index: 4;
+   z-index: 11;
   transition: .6s;
 }
 
@@ -901,7 +901,7 @@ animation: SlideLeft .3s;
    line-height: 50px;
    top: 0;
     right: 60px;
-   z-index: 4;
+   z-index: 11;
 transition: .6s;
 }
 
@@ -997,7 +997,7 @@ margin-right: auto;
    width: 120px !important;
    overflow: hidden;
    height: 100vh;
-   z-index: 5;
+   z-index: 12;
 }
 
 
